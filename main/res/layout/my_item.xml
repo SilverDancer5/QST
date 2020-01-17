@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/iv_user_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/beau"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:text="张三"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/tv_user_age"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="年龄12"
+        android:layout_below="@id/tv_user_name"
+        android:layout_alignLeft="@id/tv_user_name"/>
+
+</RelativeLayout>

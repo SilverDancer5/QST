@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">饿了吗</string>
+    <string name="title_takeout">外卖</string>
+    <string name="title_life">生活</string>
+    <string name="title_bills">订单</string>
+    <string name="title_mine">我的</string>
+</resources>
